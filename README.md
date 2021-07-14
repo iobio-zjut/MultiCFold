@@ -40,10 +40,10 @@ MultiCFold requires five files to generate models:
 	-fasta				: fasta file
 	-PSIPRED.txt			: contact map file by DeepMetaPSICOV
 	-RaptorX.txt			: contact map file by RaptorX
-	-SpotContact.txt			: contact map file by SpotContact
+	-SpotContact.txt		: contact map file by SpotContact
 	-TripletRes.txt			: contact map file by TripletRes
-	-3mer_frag_set		: fragment library with fragment lenth 3
-	-9mer_frag_set		: fragment library with fragment lenth 9
+	-3mer_frag_set			: fragment library with fragment lenth 3
+	-9mer_frag_set			: fragment library with fragment lenth 9
 	-flags				: parameter of MultiCFold
 
 ## 3. RUN
