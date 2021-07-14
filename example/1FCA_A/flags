@@ -1,0 +1,16 @@
+-in:file:fasta ./input_files/fasta
+-in:file:frag3 ./input_files/3mer_frag_set
+-in:file:frag9 ./input_files/9mer_frag_set
+
+-in:file:native ./input_files/native.pdb
+
+-abinitio:relax
+-nstruct 1
+-out:pdb
+
+#-use_filters true
+-abinitio::increase_cycles 10
+-abinitio::rg_reweight 0.5
+-abinitio::rsd_wt_helix 0.5
+-abinitio::rsd_wt_loop 0.5
+-relax::fast
